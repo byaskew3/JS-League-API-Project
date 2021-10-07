@@ -1,0 +1,53 @@
+* {
+    color: rgb(43, 81, 124);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+h1 {
+    font-weight: 200;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.btn {
+    background-color: rgb(133, 186, 226);
+    border: 1px;
+    color: rgb(255, 255, 255);
+}
+
+.title-center {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+    margin-top: 70px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    width: 100%;
+}
+
+thead {
+    background-color: rgb(97, 143, 173);
+}
+
+input {
+    background-color: rgb(97, 143, 173);
+}
+
+#video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -10;
+  }
